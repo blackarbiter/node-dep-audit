@@ -1,5 +1,5 @@
 # 1.问题
-npm audit命令可以帮助检测项目的依赖包是否存在已知的漏洞，漏洞库来源：Security advisories 。 当希望将依赖组件漏洞纳入SAST漏洞扫描范围是，通常的想法是通过执行npm audit命令以获取相关的结果。
+npm audit命令可以帮助检测项目的依赖包是否存在已知的漏洞，漏洞库来源：[Security advisories](https://www.npmjs.com/advisories) 。 当希望将依赖组件漏洞纳入SAST漏洞扫描范围是，通常的想法是通过执行npm audit命令以获取相关的结果。
 ```
 const run = () =>{
   const auditCommand = 'npm audit --registry=https://r.cnpmjs.org/ --audit-level=high --production --json';
@@ -49,7 +49,7 @@ node-dep-audit --help
 ## English
 ***
 # 1.Problem
-The npm audit command can help detect whether there are known vulnerabilities in the dependent packages of the project. The source of the vulnerability library: Security advisories. When you want to include the vulnerabilities of dependent components into the scope of SAST vulnerability scanning, the usual idea is to obtain relevant results by executing the npm audit command.
+The npm audit command can help detect whether there are known vulnerabilities in the dependent packages of the project. The source of the vulnerability library: [Security advisories](https://www.npmjs.com/advisories). When you want to include the vulnerabilities of dependent components into the scope of SAST vulnerability scanning, the usual idea is to obtain relevant results by executing the npm audit command.
 ```
 const run = () =>{
   const auditCommand = 'npm audit --registry=https://r.cnpmjs.org/ --audit-level=high --production --json';
