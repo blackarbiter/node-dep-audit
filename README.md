@@ -1,3 +1,8 @@
+# 0.招聘
+内推各类[社会招聘](https://job.bytedance.com/society/position)职位，欢迎发送简历到邮箱：535066512#qq.com，请备注具体职位信息。
+字节跳动校招内推码: E9WCMGX 
+投递链接: [https://job.toutiao.com/s/JkHY69B](https://job.toutiao.com/s/JkHY69B)
+
 # 1.问题
 npm audit命令可以帮助检测项目的依赖包是否存在已知的漏洞，漏洞库来源：[Security advisories](https://www.npmjs.com/advisories) 。 当希望将依赖组件漏洞纳入SAST漏洞扫描范围是，通常的想法是通过执行npm audit命令以获取相关的结果。
 ```
