@@ -9,7 +9,9 @@ const base_url = 'https://www.npmjs.com/advisories';
 const run = () => {
   console.log(`
   -------------------------------------------------------
-  
+  内推各类社会招聘职位: https://job.bytedance.com/society/position,
+  欢迎发送简历到邮箱: zpzpzp188#163.com，请备注具体职位信息。
+  字节跳动校招内推码: E9WCMGX 投递链接: https://job.toutiao.com/s/JkHY69B
   -------------------------------------------------------
   `);
   const argv = require('yargs')
